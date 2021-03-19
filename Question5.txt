@@ -1,0 +1,12 @@
+Q5. In a for loop, and can be statements more complicated than declaring, initializing, and updating a loop-control variable. 
+How can I take advantage of this ability?
+
+The logical operator && can be used to give two condition statements in for loop.
+ condition1 && condition2
+ This returns true if both the conditions are true.
+ 
+ Example:
+
+for (int i = 0, j = 10; i <= 10 && j > 0; i++, j--) {
+     System.out.println("Inside For Loop");
+ }
