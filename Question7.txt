@@ -1,0 +1,13 @@
+Q7 . Are there cases where I must use a for loop but not a while, or vice versa?
+
+No, Any for loop can be rewritten using while loop and vice versa.
+
+Example:
+for(init;condition;incr/decr){
+    statements;
+ }
+can be written as
+
+while(condition){
+  statements;
+ } 
