@@ -2,7 +2,7 @@
 //Make sure that your program works properly for all values of n.
 
 package com.company;
-public class PowersOfTwo {
+public class Question3 {
     public static void main(String[] args) {
 
         //command line argument
