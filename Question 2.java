@@ -10,15 +10,15 @@ public class Question2 {
         System.out.println("Enter the size of binary array");
         int n = sc.nextInt();
         System.out.println("Enter a binary array");
-        int A[] = new int[n];
+        int b_nums[] = new int[n];
         for(int i=0;i<n;i++)
         {
-            A[i]=sc.nextInt();
+            b_nums[i]=sc.nextInt();
         }
 
         // count number of 0's
         int zeros = 0;
-        for (int value : A) {
+        for (int value : b_nums) {
             if (value == 0) {
                 zeros++;
             }
@@ -27,15 +27,15 @@ public class Question2 {
         // put 0's at the beginning
         int k = 0;
         while (zeros-- != 0) {
-            A[k++] = 0;
+            b_nums[k++] = 0;
         }
 
         // fill all remaining elements by 1
-        while (k < A.length) {
-            A[k++] = 1;
+        while (k < b_nums.length) {
+            b_nums[k++] = 1;
         }
 
         // print the rearranged array
-        System.out.println("After Sorting:"+Arrays.toString(A));
+        System.out.println("After Sorting:"+Arrays.toString(b_nums));
     }
 }
