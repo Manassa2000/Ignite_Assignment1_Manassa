@@ -1,4 +1,4 @@
-Q2. Write a program to sort a given binary array in linear times.
+//Q2. Write a program to sort a given binary array in linear times.
 
 package com.company;
 import java.util.*;
