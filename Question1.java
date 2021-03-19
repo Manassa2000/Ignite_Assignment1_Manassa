@@ -1,4 +1,4 @@
-Q1. Write a program that takes three integer command line arguments and prints equal if all three are equal, and not equal otherwise.
+//Q1. Write a program that takes three integer command line arguments and prints equal if all three are equal, and not equal otherwise.
 
 package com.company;
 
