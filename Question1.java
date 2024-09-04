@@ -1,5 +1,5 @@
 //Q1. Write a program that takes three integer command line arguments and prints equal if all three are equal, and not equal otherwise.
-
+//Checking out
 package com.company;
 
 public class Question1 {
